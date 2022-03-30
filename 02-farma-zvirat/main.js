@@ -16,6 +16,7 @@ for (let i = 0; i < poleZvirat.length; i++) {
 let fotoZvirete = document.createElement('img');
 fotoZvirete.className = 'foto';
 fotoZvirete.src = poleZvirat[i].foto;
+fotoZvirete.alt = poleZvirat[i].jmeno;
 
 let jmenoZvirete = document.createElement('span');
 jmenoZvirete.className = 'jmeno';
